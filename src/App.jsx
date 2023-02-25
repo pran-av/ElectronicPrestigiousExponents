@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import HandsOnHTML from './projects/HandsOnHTML';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path='stories' element={<HandsOnHTML />} />
         <Route path='*' element={<div>Error: Not a valid page.</div>} />
       </Routes>
+      <Footer />
     </Router>
     /*
       BrowserRouter: connects with browser
