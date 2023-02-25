@@ -1,15 +1,12 @@
-import React from 'react';
-import {Header} from '../components/header';
-import {Footer} from '../components/footer';
+//import {Header} from '../components/header';
+//import {Footer} from '../components/footer';
 
-function htmlNotes() {
+const HandsOnHTML = () => {
   return (
-    <div>
-      <Header />
-      <main>
-        <h2>File Structures in an HTML Project</h2>
-      </main>
-      <Footer/>
-    </div>
+    <section>
+      <h2>File Structures in an HTML Project</h2>
+    </section>     
   );
 }
+
+export default HandsOnHTML;

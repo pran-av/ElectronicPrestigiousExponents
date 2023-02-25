@@ -3,3 +3,19 @@ main {
   vertical-align: center;
   line-height: 100vh
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#headerTitle {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
